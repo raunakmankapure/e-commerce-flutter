@@ -17,7 +17,8 @@ samples, guidance on mobile development, and a full API reference.
 
 ## To run app
 install [flutter sdk] ("https://flutter.dev/setup/")
-``````[screen rec ecom.webm![Screenshot_1733902027](https://github.com/user-attachments/assets/774b9730-77b2-4f8c-86ad-8180704d67c9)
+
+[screen rec ecom.webm![Screenshot_1733902027](https://github.com/user-attachments/assets/774b9730-77b2-4f8c-86ad-8180704d67c9)
 ](https://github.com/user-attachments/assets/ec1632b0-7c53-40ff-a8a5-c387d573652f)
 
 flutter pub get![mitt-1](https://github.com/user-attachments/assets/f165bd01-66e2-447d-b31f-6cd45d8fc72f)

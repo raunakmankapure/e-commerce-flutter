@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_ecommerce/screens/home_screen.dart';
+import 'package:flutter_ecommerce/screens/auth/login_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -24,12 +24,12 @@ class SplashScreen extends StatelessWidget {
             const Spacer(),
             Padding(
               padding: const EdgeInsets.fromLTRB(30, 50, 30, 80),
-              child: GestureDetector(
+              child: InkWell(
                 onTap: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const HomeScreen(),
+                      builder: (context) => const LoginScreen(),
                     ),
                   );
                 },
@@ -61,7 +61,6 @@ class SplashScreen extends StatelessWidget {
                 ),
               ),
             ),
-            // Add the "Made by Raunak" text at the bottom
             Align(
               alignment: Alignment.bottomCenter,
               child: Padding(

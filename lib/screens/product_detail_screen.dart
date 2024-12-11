@@ -119,13 +119,13 @@ class ProductDetailScreen extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  backgroundColor: Colors.transparent,
-                  shadowColor: Colors.black.withOpacity(0.1),
+                  backgroundColor: Colors.white,
+                  shadowColor: Colors.white.withOpacity(0.9),
                   elevation: 50,
                 ).copyWith(
                   backgroundColor: MaterialStateProperty.resolveWith((states) {
                     if (states.contains(MaterialState.pressed)) {
-                      return Colors.black.withOpacity(0.7);
+                      return Colors.white.withOpacity(0.7);
                     }
                     return null;
                   }),

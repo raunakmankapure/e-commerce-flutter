@@ -1,6 +1,11 @@
 # mitt_flutter
-
 A new Flutter project.
+
+## 🔴Some Screenshots
+![1](https://github.com/user-attachments/assets/78fbc9f5-b9b2-41f5-9891-15ccf2077610)
+![2](https://github.com/user-attachments/assets/da0bf912-e754-422e-b79e-a5ba2855bc52)
+
+[screen rec ecom.webm](https://github.com/user-attachments/assets/f9655daf-5c5b-4f8f-9330-32029744f8d1)
 
 ## Getting Started
 
